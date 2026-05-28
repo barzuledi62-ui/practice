@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   margin: 0;
   display: flex;
-  background-color: rgb(128, 203, 221);
+  background-color: darkblue;
 }
 
 .header {
