@@ -1,0 +1,6 @@
+{
+  "name": "Perfume Store with Account & Cart",
+  "description": "Сайт парфюмерии с корзиной, личным кабинетом, авторизацией и историей заказов.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
