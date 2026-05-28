@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: grey;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  gap: 30px;
+}
+
+.main {
+  flex: 1;
+  background: #111;
+  color: white;
+}
+
+.topbar {
+  height: 70px;
+  background: chocolate;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: right;
+}
+
+.login {
+  border: none;
+  color: black;
+  background-color: rgba(115, 57, 57, 0.104);
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  padding: 5px;
+}
+
+.login:hover {
+  transform: scale(1.1);
+  background-color: white;
+  cursor: pointer;
+}
+
+.inventory {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  width: 230px;
+  height: 130px;
+  background: darkslategray;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+}
+
+.settings {
+  margin-top: auto;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.settings:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  color: black;
+}

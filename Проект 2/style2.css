@@ -1,0 +1,121 @@
+body {
+  background-color: skyblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(123, 29, 32, 0.8);
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  font-size: 30px;
+  background-color: rgb(55, 35, 35);
+}
+.logo {
+  color: chocolate;
+  text-decoration: none;
+}
+
+.link a {
+  cursor: pointer;
+  text-decoration: none;
+  color: chocolate;
+  display: inline-block;
+  transition: transform 0.3s;
+  margin: 0 10px;
+}
+
+.link a:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  color: black;
+  background-color: chocolate;
+  border: none;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.card {
+  width: 200px;
+  padding: 20px 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.purfum {
+  color: chocolate;
+}
+
+.btn2 {
+  color: black;
+  background-color: chocolate;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.price {
+  color: chocolate;
+  font-size: 20px;
+}
+
+.purfum {
+  font-size: 20px;
+}
+
+footer {
+  background: rgb(55, 35, 35);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  color: chocolate;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+  transform: scale(1.1);
+}
